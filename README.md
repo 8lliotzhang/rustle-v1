@@ -1,13 +1,17 @@
-# rustle v0
+# rustle v1
+Predictive text generation using a PyTorch LSTM trained on Russian literature
 
-(Rebranding because the project is continuing!!)
+### Whats happening
+More LSTM text generation training, but now on new hardware! Continuing to learn and refine on the part LSTM model. I retconned the past thing ([TolstAI](https://github.com/8lliotzhang/rustle-v0)) to be Rustle v0. Hopefully we can speed up training, get more epochs or layers if needed.
+
+End goal this time is to have a better, more cohesive model which approximates the style and can generate not just coherent sentences, but possibly even coherent narratives spanning one or more paragraphs. Initial tests will still be restricted to War and Peace just to ensure I get a working baseline before spending hours training a faulty config or something.
+
+### Training texts
+Instead of just one work (War and Peace) more english-language Russian literature classics was sourced from Project Gutenberg - thanks to the volunteers who made it possible. 
+
+### Blog
+I think I'm still gonna blog my progress! I'll probably figure out another way instead of manually changing the HTML site. 
 
 
-I'm learning how LSTMs work a bit more in detail, by employing that ancient and secret coding technique known as "stealing code that works". For me, this "project" is more of a hands-on learning experience where I take a working LSTM, break each component down, figure how each part works, and then write a lot of comments about that. (no need to put it back together, because, well, it's not physical. The analogy kinda breaks down here, unlike the code.)
 
-The goal is to have some completed project as a downloadable app. In the meantime, checkout the [blag](https://8lliotzhang.github.io/prometheus/) I'm writing! (it's a failsafe to track progess in case I run out of time)
 
-Special thanks to Cary Huang, whose fault it is I know what an LSTM is, and to Andrej Karpathy, whose fault it is that LSTMs are.
-
-#### thats all, until next time nerds 
--8z
