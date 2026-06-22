@@ -1,6 +1,7 @@
-# tolstAI
+# rustle v0
 
-*It's a bad pun, I know.*
+(Rebranding because the project is continuing!!)
+
 
 I'm learning how LSTMs work a bit more in detail, by employing that ancient and secret coding technique known as "stealing code that works". For me, this "project" is more of a hands-on learning experience where I take a working LSTM, break each component down, figure how each part works, and then write a lot of comments about that. (no need to put it back together, because, well, it's not physical. The analogy kinda breaks down here, unlike the code.)
 
